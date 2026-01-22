@@ -1,1 +1,1 @@
-Тесты находятся в файле tests.spec.ts
+Тесты находятся в файлах tests.spec.ts и pom.spec.ts
