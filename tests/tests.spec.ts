@@ -51,6 +51,7 @@ test.describe('Тест на видимость', () => {
     });
     await test.step('Hide осталась видимой', async () => {
       await expect(hideButton).toBeVisible();
+      await hideButton.hover();
     });
     await test.step('Прозрачная кнопка', async () => {
       await expect(transparentButton).toHaveCSS('opacity', '0');
